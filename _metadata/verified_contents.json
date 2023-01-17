@@ -1,0 +1,11 @@
+{
+  "hashes": {
+    "index.html": "bb5de2437f2e81472c176aceb9a4d8517f3729d5aab11f223ce6e4059af0beb9",
+    "manifest.json": "1ab61961e757e2574c9a35bfb3be9144934272a18a7aff4242bc00a7f8d50d03",
+    "owfix.css": "b86947636c2a3705746c6cf31a4678db615176f7fae1fb5af95d4cc01019c9f8",
+    "preloader.gif": "9f5cff73aea52deecece4230adde77868e2320b96265315fd099af6ee3b63eeb",
+    "redirect.js": "d747593bc6842e8bcc93a3c33b5c39435bd8dd3ff2bd2e1ee829223da0e0725b"
+  },
+  "global": "1a1e27a1499e370cd1a2df14f4725c2329ca1308f2bd297428cf32bff6804e09",
+  "signature": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWciOiJmZGI5Yjk1Y2FlNTE5N2I1NzcwMmZiYjMzOWQyNDU4NzZiYmM4OTIxN2FlNTA5OGRhN2FkY2MyYmE1ZWU2MzRlIiwiaWF0IjoxNjQyOTMwNjA5fQ.KOsboxyv8uPH45-f8JLprQGfip37kjlkRuXu5ah3nUqrhnRk7qlHnfQbOOr_tMtD7ZzwRcgpQ-rVxqXwooFgnadTSsztJiwoigcFZYj1V0Yhq4Yy88VKiNMWvH06f5XOICEalFpmaxV6uzANxATyc7qzMXvL1fxyOg6hmzOKN-w"
+}

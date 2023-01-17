@@ -1,0 +1,76 @@
+{
+   "manifest_version":"1",
+   "type":"WebApp",
+  "meta": {
+    "name": "RDO Map by Jeanropke",
+    "version": "1.1.0",
+    "author": "bubleeshaark",
+    "minimum-overwolf-version": "0.138.0.16",
+    "icon": "static/icons/IconMouseOver.png",
+    "icon_gray": "static/icons/IconMouseNormal.png",
+    "window_icon": "static/icons/IconMouseOver.png",
+    "launcher_icon": "static/icons/desktop-icon.ico",
+    "description": "A RDR2 online interactive map overlay by /u/jeanropke."
+  },
+   "data":{
+      "game_targeting":{
+         "type":"dedicated",
+         "game_ids":[
+            21624
+         ]
+      },
+      "start_window":"main",
+      "windows":{
+         "main":{
+            "file":"index.html",
+            "transparent":"false",
+            "grab_keyboard_focus":"true",
+            "show_in_taskbar":"true",
+            "has_drop_shadow":true,
+            "resizable":"true",
+            "size":{
+               "width":1280,
+               "height":640
+            },
+            "min_size":{
+               "width":1280,
+               "height":640
+            },
+            "max_size":{
+               "width":2560,
+               "height":1440
+            }
+         }
+      },
+      "externally_connectable":{
+         "matches":[
+            
+         ]
+      },
+      "content_scripts":[
+         {
+            "matches":[
+               "https://jeanropke.github.io/RDOMap/"
+            ],
+            "js":[
+               "redirect.js"
+            ]
+         },
+         {
+            "matches":[
+               "https://jeanropke.github.io/RDOMap/"
+            ],
+            "css":[
+               "owfix.css"
+            ]
+         }
+      ],
+      "hotkeys":{
+         "rdr2_showhide":{
+            "title":"Show/Hide In-Game Map",
+            "action-type":"toggle",
+            "default":"K"
+         }
+      }
+   }
+}
